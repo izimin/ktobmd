@@ -5,8 +5,10 @@ from pt4exam import *
 
 def solve():
     task("ExamTaskC34")
-    n = int(input())
+
     dict_counts = {}
+
+    n = int(input())
     for i in range(n):
         name, school, year = input().split()
         dict_counts[school] = 1 if school not in dict_counts else dict_counts[school] + 1

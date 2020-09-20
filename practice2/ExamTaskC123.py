@@ -9,6 +9,7 @@ def solve():
     num_prev = int(input())
     first = num_prev
     count = 0
+
     while True:
         num_cur = int(input())
 

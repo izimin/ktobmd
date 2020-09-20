@@ -6,8 +6,10 @@ from pt4exam import *
 def solve():
     task("ExamTaskC76")
 
-    n = int(input())
     dict = {}
+
+    n = int(input())
+
     for i in range(n):
         cl, surname, initials, subj, est = input().split()
         key = surname + " " + initials
